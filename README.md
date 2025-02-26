@@ -27,7 +27,7 @@ before the election board representative provides their randomness.
  * [**Detailed documentation of the tie resolution protocol** 
     (markdown)](tie-resolution.md)
 
- * [**An example implementation of the tie-resolution verifier** (Python)](py)
+ * [**An example implementation of the tie-resolution algorithm** (Python)](py)
 
    The provided implementation can be used by an auditor to assert that
    the result of the tie resolution process, as output by the POLYAS

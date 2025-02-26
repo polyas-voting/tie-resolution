@@ -1,4 +1,4 @@
-# Reference Implementation of Tie Resolution Algorithm
+# Tie Resolution Algorithm: a Reference Implementation
 
 This folder contains simple implementation of the algorithm for tie
 resolution verification.
@@ -25,18 +25,12 @@ algorithm.
 
   A simple command-line application that calls the tie resolution procedure
   with the provided command-line arguments and prints the computed result
-  (computed permutation). See below for the usage
-
-
-  ```
-  python3 tie_resolution_cli SYSTEM-SEED USER-SEED BALLOT-ID LIST-ID N
-  ```
+  (computed permutation). See below for the usage.
 
 
 ## Usage
 
-To generate the result of the  algorithm specified
-in [this documentation](../tie-resolution.md), to resolve
+To generate the result of the tie resolution algorithm, in order to resolve
 
  - ties of `N` candidates/choices with equal number of votes, 
  - in the  ballot with identifier `BALLOT-ID` and voting list with 
@@ -49,9 +43,10 @@ call:
 python3 tie_resolution_cli SYSTEM-SEED USER-SEED BALLOT-ID LIST-ID N
 ```
 
-This command will compute and output the permutation of the integers $0 ..
-(n-1)$ which determines the (re)ordering of the $n$ candidates with the same
+This command will compute and output the permutation of the integers `0` ..
+`N-1` which determines the (re)ordering of the `N` candidates with the same
 number of votes (on the given ballot/list).
 
 An auditor can now check that this permutation is the one used by the POLYAS
 system to determine the candidates order.
+
