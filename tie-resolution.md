@@ -1,6 +1,6 @@
 # Tie Resolution Protocol 
 
-**Tomasz Truderung • POLYAS GmbH (c)**
+**Tomasz Truderung • POLYAS GmbH**
 
 
 Introduction
@@ -41,7 +41,7 @@ the POLYAS system, the following protocol steps are executed.
    for later reference.
 
    At this point, the system also provides the user with the identifiers of
-   ballots and lists where the ties occur.<D-[>
+   ballots and lists where the ties occur.
 
    Note that at the point when the system generates its seed, it does
    not know the value of the user seed which is only provided in the

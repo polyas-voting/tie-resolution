@@ -1,4 +1,4 @@
-# Reference Implementation of Tie Resolution Verification
+# Reference Implementation of Tie Resolution Algorithm
 
 This folder contains simple implementation of the algorithm for tie
 resolution verification.
@@ -15,7 +15,11 @@ algorithm.
 
 * **[test_tie_resolution.py](test_tie_resolution.py)**
 
-   A simple test.
+   A simple test. You can execute it by:
+
+   ```
+   python3 -m unittest test_tie_resolution
+   ```
   
 * **[tie_resolution_cli.py](tie_resolution_cli.py)**
 
