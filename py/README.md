@@ -33,7 +33,7 @@ algorithm.
 To generate the result of the tie resolution algorithm, in order to resolve
 
  - ties of `N` candidates/choices with equal number of votes, 
- - in the  ballot with identifier `BALLOT-ID` and voting list with 
+ - in the  ballot with identifier `BALLOT-ID` and candidate list with 
    identifier `LIST-ID`, 
  - using the system seed `SYSTEM-SEED` and user seed `USER_SEED`, 
 
@@ -48,5 +48,7 @@ This command will compute and output the permutation of the integers `0` ..
 number of votes (on the given ballot/list).
 
 An auditor can now check that this permutation is the one used by the POLYAS
-system to determine the candidates order.
+system to determine the candidates order with respect to the original order of
+these candidates in the ballot. Note that an auditor needs to repeat this step
+for each tie instance (each candidate list where a tie occurs).
 

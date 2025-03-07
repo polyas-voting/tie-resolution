@@ -7,7 +7,7 @@ verifies the correctness of the tie-resolution results produced by the POLYAS
 system.
 
 A *tie condition* occurs when two or more candidates or choices receive an
-equal number of votes in a ballot or a list. In such cases, a resolution
+equal number of votes in a ballot or a candidate list. In such cases, a resolution
 mechanism may be required to randomly order these entities.  The primary
 objective of the described protocol is to ensure that the resolution order is
 in fact *pseudo-random* (the outcome is unpredictable and uniformly
