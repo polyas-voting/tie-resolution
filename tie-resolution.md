@@ -1,6 +1,6 @@
 # Tie Resolution Protocol 
 
-**Tomasz Truderung • POLYAS GmbH**
+**POLYAS GmbH**
 
 
 Introduction
@@ -40,7 +40,7 @@ the POLYAS system, the following protocol steps are executed.
    for later reference.
 
    At this point, the system also provides the user with the identifiers of
-   ballots and candidate lists where the ties occur (a election can contain
+   ballots and candidate lists where the ties occur (an election can contain
    several ballots, where each ballot can consists of one or more
    candidate/choice lists).
 
@@ -94,8 +94,8 @@ Details of the Algorithm
 --------------------------------------------------------------------------
 
 Each tie condition is identified by the *ballot identifier* `bid` and
-the *list identifier* `lid` where the tie occurs. It also contains the
-number $n$ of the candidates/choices with the same number of votes.
+the *list identifier* `lid` where the ties occur. It also contains the
+number $n$ of the candidates/choices which need to be ordered.
 
 We will assign indices $0, \dots, (n-1)$ to these candidates/choices.
 The tie resolution should produce a _resolution order_, that is a

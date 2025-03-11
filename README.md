@@ -2,9 +2,7 @@
 
 This repository contains documentation for the protocol used by POLYAS to
 resolve tie conditions in a verifiably pseudo-random manner. It also includes
-a reference implementation of the tie-resolution verification algorithm, which
-verifies the correctness of the tie-resolution results produced by the POLYAS
-system.
+a reference implementation of the tie-resolution verification algorithm in Python.
 
 A *tie condition* occurs when two or more candidates or choices receive an
 equal number of votes in a ballot or a candidate list. In such cases, a resolution
